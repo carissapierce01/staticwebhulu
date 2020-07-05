@@ -1,0 +1,232 @@
+
+#home {
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 110vh;
+    text-align: center;
+    background: url("https://cdn.hipwallpaper.com/i/72/30/asLx3f.jpg") center 70% no-repeat;
+    background-size: cover;
+}
+
+
+.header-tag {
+    text-align: center;
+    color: #66ff99;
+    font-family: sans-serif;
+  }
+
+.header-tag1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: sans-serif
+}
+
+h1 {
+    font-size: 120px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 40px;
+}
+h5 {
+    font-size: 20px;
+}
+
+
+
+.new {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1477px;
+    height: 750px;
+}
+
+
+
+
+.bundle {
+    background-color: #004d4d;
+    width: 100%;
+    border: 15px solid #004d4d;
+    padding: 50px;
+    margin: 0px;
+}
+
+.bundle:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.icons img {
+    width: 110px;
+    height: 65px;
+    padding: 5px;
+    float: left;
+}
+
+.bundledeal {
+    position: absolute;
+    top: 122%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: sans-serif
+}
+
+.bundledeal2 {
+    text-align: center;
+    color: #66ff99;
+    font-family: sans-serif;
+}
+
+.bundlebutton button{
+    background-color: #004d4d;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+.column2 {
+  float: left;
+  width: 20%;
+  padding: 0px;
+  text-align: center;
+}
+.column1 {
+	float: left;
+    width: 60%;
+    padding: 0px;
+    text-align: left;
+}
+
+.roww {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1277px;
+    height: 750px;
+}
+
+.roww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+  padding: 20px;
+  height: 300px; 
+  color: gray;
+}
+
+.row {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 550px;
+    background-color: #e6e6e6;
+    padding: 40px;
+    text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/***end of plans && start of phone section***/
+
+.phone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1477px;
+    height: 450px;
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+  .contact-row img {
+    width: 37px;
+    height: 30px;
+    padding: 5px;
+    float: left;
+  }
+  
+
+  /*I think icon:after here is worthless*/
+  .icon:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+h6 {
+ font-family: sans-serif;
+ font-size: 10px;
+}
+
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e6e6e6;
+    color: gray;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+#footer li {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
